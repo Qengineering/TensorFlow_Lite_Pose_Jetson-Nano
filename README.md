@@ -1,6 +1,6 @@
 # TensorFlow_Lite_Pose_Jetson-Nano
 ![output image]( https://qengineering.eu/images/Pose_Jetson.webp )<br/>
-## TensorFlow Lite Posenet running at 15.2 FPS on a Jetson Nano
+## TensorFlow Lite Posenet running on a Jetson Nano
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)<br/><br/>
 A fast C++ implementation of TensorFlow Lite Posenet on a Jetson Nano.<br/>
 Once overclocked to 2015 MHz, the app runs at 15.2 FPS.
@@ -8,7 +8,7 @@ Once overclocked to 2015 MHz, the app runs at 15.2 FPS.
 [Paper](https://medium.com/tensorflow/real-time-human-pose-estimation-in-the-browser-with-tensorflow-js-7dd0bc881cd5)<br/>
 
 ## Benchmark.
-| CPU 2015 MHz | GPU 2015 MHz | CPU 1479 MHz | GPU 1479 MHZ | RPi 4 64-OS 1950 MHz |
+| CPU 2015 MHz | GPU 2015 MHz | CPU 1479 MHz | GPU 1479 MHZ | RPi 4 64os 1950 MHz |
 |  :------------: | :-------------: | :-------------:  | :-------------: | :-------------: |
 |  15.2 FPS | 11.8 FPS  | 12 FPS | 11 FPS  | 9.4 FPS |
 
@@ -36,7 +36,7 @@ TestTensorFlow_Lite_Pose.cpb <br/>
 Pose_single.cpp<br/>
  <br/>
 Run TestTensorFlow_Lite.cpb with Code::Blocks.<br/><br/>
-With the `#define GPU_DELEGATE` uncommented, the TensorFlow Lite will deploy GPU delegates, if you have the appropriate libraries compiled by bazel.[Install GPU delegates](https://qengineering.eu/install-tensorflow-2-lite-on-jetson-nano.html) <br/><br/>
-See the movie at: https://www.youtube.com/watch?v=LxSR5JJRBoI
+With the `#define GPU_DELEGATE` uncommented, the TensorFlow Lite will deploy GPU delegates, if you have, of course, the appropriate libraries compiled by bazel. [Install GPU delegates](https://qengineering.eu/install-tensorflow-2-lite-on-jetson-nano.html) <br/><br/>
+See the RPi 4 movie at: https://www.youtube.com/watch?v=LxSR5JJRBoI
 
 
